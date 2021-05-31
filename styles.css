@@ -1,0 +1,182 @@
+body {
+  margin: 0px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #63B8A7;
+}
+
+.leftnav {
+  display: flex;
+  margin-left: 1.5em;
+  justify-content: space-around;
+  font-family: 'Mulish', sans-serif;
+}
+
+.bar {
+  width: 20em;
+  margin: 0.7em 1.5em 0 1.7em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bar h4 {
+  cursor: pointer;
+}
+
+.rightnav {
+  display: flex;
+  width: 20em;
+  margin-right: 4em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rightnav button {
+  padding: 1em 1.2em;
+  width: 10em;
+  background-color: #63B8A7;
+  border-radius: 15px;
+  border: 0px;
+  color: #FFFFFF;
+  font-family: 'Rubik', sans-serif;
+  font-size: small;
+  cursor: pointer;
+}
+
+.ingresar {
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  font-weight: 18;
+  cursor: pointer;
+}
+
+.form {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Rubik', sans-serif;
+  color: #264c3d;
+}
+
+.selectmenu {
+  border: 1px solid #63B8A7;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  color: #264c3d;
+  padding: 1em 1em;
+  width: 24em;
+  border-radius: 0.6em;
+}
+
+.registro {
+  font-family: 'Rubik', sans-serif;
+  color: #4F596A;
+  text-align: center;
+  margin: 2em 0 2.3em 0;
+  font-size: 1em;
+}
+
+#nextStep {
+  font-weight: 500;
+}
+
+#signUp {
+  background-color: #264c3d;
+  padding: 1em 1.5em;
+  color: #FFFFFF;
+  border: 0px;
+  border-radius: 1em;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.trend {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.trend-card {
+  width: 25em;
+  margin: 1em;
+  font-family: 'Rubik', sans-serif;
+}
+
+.hashtag {
+  padding: 0em 1em;
+  color: #f2f2f2;
+  width: auto;
+  font-size: 0.6em;
+  display: inline-block;
+  border-radius: 1.3em;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#maspopular {
+  background-color: #4686c8;
+}
+
+#lonuevo {
+  background-color: #264c3d;
+}
+
+#mejorprecio {
+  background-color: #63B8A7;
+}
+
+.trendImg {
+  width: 258px;
+  height: 172px;
+}
+
+.trendtitle {
+  font-weight: 500;
+  color: #264c3d;
+}
+
+.dictado {
+  font-size: 0.8em;
+  font-weight: 400;
+  color: #3C3A36;
+}
+
+.trendIcons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #f2f2f2;
+}
+
+.namehashtag {
+  background-color: #63B8A7;
+}
+
+.estadisticas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.estadisticas-card {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+.estadisticas-card h3 {
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #4686c8;
+  margin-bottom: 0px;
+}
+
+.estadisticas-card p {
+  margin-top: 0px;
+  font-weight: 400;
+  font-size: 0.8em;
+}
